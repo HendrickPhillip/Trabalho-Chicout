@@ -14,7 +14,7 @@ public class TelaCurso {
         tela.setExtendedState(JFrame.MAXIMIZED_BOTH);
         tela.setBackground(new Color(0, 0 ,0));
 
-        //Nome Aluno
+        //Nome Curso
         JLabel nomeAluno = new JLabel();
         nomeAluno.setText("Nome: ");
         nomeAluno.setBounds(0, 10, 40, 20);
