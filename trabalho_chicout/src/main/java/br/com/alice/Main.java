@@ -10,7 +10,7 @@ public class Main {
 
 //        new TelaAluno();
 //        new TelaProfessor();
-        new TelaCurso();
+//        new TelaCurso();
 //        new TelaDisciplina();
     }
 }
