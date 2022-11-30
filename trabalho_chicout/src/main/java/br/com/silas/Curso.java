@@ -1,11 +1,12 @@
-package br.com.hendrick.Classes;
+package br.com.silas;
 
 public class Curso {
     private int idCurso;
     private String area, nome_curso, turno;
-    private double valor, cargaHorariaCurso;
+    String valor;
+    private double cargaHorariaCurso;
 
-    public Curso(int idCurso, String area, String nome_curso, String turno, double valor, double cargaHorariaCurso) {
+    public Curso(int idCurso, String area, String nome_curso, String turno, String valor, double cargaHorariaCurso) {
         this.idCurso = idCurso;
         this.area = area;
         this.nome_curso = nome_curso;
@@ -41,7 +42,7 @@ public class Curso {
         this.turno = turno;
     }
 
-    public double getValor() {
+    public String getValor() {
         return valor;
     }
 

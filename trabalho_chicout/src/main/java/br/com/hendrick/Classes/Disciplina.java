@@ -4,21 +4,24 @@ public class Disciplina {
     private int idDisciplina;
     private String nomeDisplina;
     private double cargaHorariaDisciplina;
-    private double horario;
+    private String horario;
 
-    public Disciplina(int idDisciplina, String nomeDisplina, double cargaHorariaDisciplina, double horario) {
+    public Disciplina(int idDisciplina, String nomeDisplina, double cargaHorariaDisciplina, String horario) {
         this.idDisciplina = idDisciplina;
         this.nomeDisplina = nomeDisplina;
         this.cargaHorariaDisciplina = cargaHorariaDisciplina;
         this.horario = horario;
     }
 
-    public double getHorario() {
+    public Disciplina(int i, String sql, String sql2, String sql3, String sql4, String sql5, String sql6, long id) {
+    }
+
+    public String getHorario() {
         return horario;
     }
 
-    public void setHorario(double horario) {
-        this.horario = horario;
+    public void setHorario(String respHorario) {
+        this.horario = respHorario;
     }
 
     public int getIdDisciplina() {
@@ -43,6 +46,9 @@ public class Disciplina {
 
     public void setCargaHorariaDisciplina(double cargaHorariaDisciplina) {
         this.cargaHorariaDisciplina = cargaHorariaDisciplina;
+    }
+
+    public void setCargaHora(int respId) {
     }
 
 }
