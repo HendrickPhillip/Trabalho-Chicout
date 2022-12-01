@@ -37,6 +37,9 @@ public class CursoDao implements Dao<Curso> {
 
     }
 
+    /* (non-Javadoc)
+     * @see br.com.hendrick.Classes.Dao#get(long)
+     */
     @Override
     public Optional<Curso> get(long id) {
         String sql = "SELECT * FROM curso WHERE idAluno = ?";
@@ -55,8 +58,8 @@ public class CursoDao implements Dao<Curso> {
                 String respArea = result.getString("area");
                 String respNomeCurso = result.getString("nome_curso");
                 String respTurno = result.getString("turno");
-                String respValor = result.getString("valor");
-                String respCargaHora = result.getString("cargaHorariaCurso");
+                double respValor = result.getDouble("valor");
+                double respCargaHora = result.getDouble("cargaHorariaCurso");
                
 
                 curso.setIdCurso(respId);

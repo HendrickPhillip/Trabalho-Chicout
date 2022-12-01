@@ -3,10 +3,10 @@ package br.com.silas;
 public class Curso {
     private int idCurso;
     private String area, nome_curso, turno;
-    String valor;
-    private double cargaHorariaCurso;
+   
+    private double valor, cargaHorariaCurso;
 
-    public Curso(int idCurso, String area, String nome_curso, String turno, String valor, double cargaHorariaCurso) {
+    public Curso(int idCurso, String area, String nome_curso, String turno, double valor, double cargaHorariaCurso) {
         this.idCurso = idCurso;
         this.area = area;
         this.nome_curso = nome_curso;
@@ -42,13 +42,10 @@ public class Curso {
         this.turno = turno;
     }
 
-    public String getValor() {
+    public double getValor() {
         return valor;
     }
 
-    public void setValor(String respValor) {
-        this.valor = respValor;
-    }
 
     public int getIdCurso() {
         return idCurso;
@@ -71,6 +68,12 @@ public class Curso {
     }
 
     public void setCargaHorariaCurso(String respCargaHora) {
+    }
+
+    /**
+     * @param respValor
+     */
+    public void setValor(double respValor) {
     }
 
 }

@@ -37,7 +37,7 @@ public class DisciplinaDao implements Dao<Disciplina> {
             while (result.next()) {
                 int respId = result.getInt("idDisciplina");
                 String respNomeDisciplina = result.getString("nomeDisplina");
-                String respCargaHora = result.getString("cargaHorariaDisciplina");
+                double respCargaHora = result.getDouble("cargaHorariaDisciplina");
                 String respHorario = result.getString("horario");
                 
                
