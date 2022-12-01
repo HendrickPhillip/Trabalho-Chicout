@@ -1,4 +1,4 @@
-package br.com.silas;
+package br.com.silas.Dao;
 
 public class Curso {
     private int idCurso;

@@ -1,4 +1,4 @@
-package br.com.silas;
+package br.com.silas.Dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

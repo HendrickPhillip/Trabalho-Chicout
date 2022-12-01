@@ -484,7 +484,8 @@
 <error line="3" column="1" severity="error" message="Classes utilitárias não deveriam ter construtores públicos ou com visibilidade de pacote." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
 <error line="3" column="1" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 </file>
-<file name="C:\Users\Silas\Desktop\Trabalho-Chicout\trabalho_chicout\src\main\java\br\com\silas\Curso.java">
+<file name="C:\Users\Silas\Desktop\Trabalho-Chicout\trabalho_chicout\src\main\java\br\com\silas\Dao\Curso.java">
+<error line="1" column="9" severity="error" message="O nome &apos;br.com.silas.Dao&apos; deve condizer com o padrão &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" column="1" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="5" column="5" severity="error" message="Cada declaração de variável deve estar em sua própria instrução." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck"/>
 <error line="5" column="26" severity="error" message="O nome &apos;nome_curso&apos; deve condizer com o padrão &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
@@ -498,8 +499,9 @@
 <error line="67" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="70" column="5" severity="error" message="Todos os métodos sobrecarregados devem ser colocados juntos. A colocação de métodos não sobrecarregados entre métodos sobrecarregados com o mesmo tipo é uma violação. O método sobrecarregado anterior foi encontrado na linha &apos; 62 &apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Silas\Desktop\Trabalho-Chicout\trabalho_chicout\src\main\java\br\com\silas\CursoDao.java">
+<file name="C:\Users\Silas\Desktop\Trabalho-Chicout\trabalho_chicout\src\main\java\br\com\silas\Dao\CursoDao.java">
 <error line="1" severity="error" message="O arquivo não termina com uma linha em branco." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" column="9" severity="error" message="O nome &apos;br.com.silas.Dao&apos; deve condizer com o padrão &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="12" column="1" severity="error" message="Ordem errada para a importação &apos;br.com.hendrick.Classes.Dao&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
 <error line="12" column="1" severity="error" message="Separação extra no grupo de importações anterior a &apos;br.com.hendrick.Classes.Dao&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
 <error line="15" column="1" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
